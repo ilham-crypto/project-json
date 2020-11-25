@@ -22,16 +22,20 @@ class Album extends Component{
     
         return(
           <div>
-               <center>
-                <Mui.ButtonGroup color="primary" aria-label="outlined primary button group">
-                    <Mui.Button  href="/">Post</Mui.Button>
-                    <Mui.Button  href="/Commenst">Commenst</Mui.Button>
-                    <Mui.Button  href="/Album">Album</Mui.Button>
-                    <Mui.Button  href="/Photos">Photos</Mui.Button>
-                    <Mui.Button  href="/Todos">Todos</Mui.Button>
-                    <Mui.Button  href="/Users">Users</Mui.Button>
-                </Mui.ButtonGroup>
-               </center> 
+                  <nav>
+                    <div class="nav-wrapper">
+                    <a href="#" class="brand-logo right">Logo</a>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a href="/">Posts</a></li>
+                        <li><a href="/Comments">Comments</a></li>
+                        <li><a href="/Album">Albums</a></li>
+                        <li><a href="/Photos">Photos</a></li>
+                        <li><a href="/Todos">Todos</a></li>
+                        <li><a href="/Users">Users</a></li>
+                    </ul>
+                    </div>
+                </nav>
+
             <h1>DATA JSON Albums</h1>
               <table border="1">
                 <tr>
